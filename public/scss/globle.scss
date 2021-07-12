@@ -1,0 +1,25 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "../../node_modules/bootstrap/scss/functions";
+
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+
+//bg
+$bg-gray: #f9fafc;
+
+//color
+$primary-color: #61c1bd;
+$secondary-color: #0bd2c8;
+
+//text
+$text-gray: #666666;
+
+//shadow
+$box-shadow: 0 0.5rem 1rem rgba($black, 0.7);

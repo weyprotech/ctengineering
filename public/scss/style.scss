@@ -2,27 +2,27 @@
 html {
   overflow-x: hidden;
 }
-body {
-  font-size: 15px;
-  color: $gray-800;
-  overflow-x: hidden;
-  background: #fff;
-}
-p {
-  margin-bottom: 0;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-bottom: 0;
-  font-weight: normal;
-}
-a {
-  text-decoration: none;
-}
+// body {
+//   font-size: 15px;
+//   color: $gray-800;
+//   overflow-x: hidden;
+//   background: #fff;
+// }
+// p {
+//   margin-bottom: 0;
+// }
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   margin-bottom: 0;
+//   font-weight: normal;
+// }
+// a {
+//   text-decoration: none;
+// }
 //font-size
 .font-40 {
   font-size: 40px;
@@ -43,7 +43,7 @@ a {
   font-size: 14px;
 }
 //bg
-.bg-gray {
+.bg-gray-1 {
   background: $bg-gray;
 }
 .bg-lightgray {
@@ -74,16 +74,18 @@ a {
   color: $text-gray;
   background: transparent;
 }
-.btn-primary {
+.btn-primary01 {
   background-color: $primary-color;
   border: 0;
   width: 80%;
   height: 50px;
   font-size: 20px;
+  color: #fff;
 }
-.btn-primary:hover {
+.btn-primary01:hover {
   background-color: $primary-color;
   border: 0;
+  color: #fff;
 }
 .btn-secondary {
   background-color: #16175f;
@@ -107,12 +109,19 @@ a {
 }
 .card-img-overlay {
   top: 80%;
+
+  h5 {
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.25rem;
+  }
 }
 .carousel-item {
   h1 {
     font-size: 56px;
     line-height: 60px;
     font-weight: lighter;
+    color: #fff;
   }
   .carousel-caption {
     right: 0;
@@ -139,7 +148,7 @@ a {
 }
 .page-item {
   margin: 0 5px;
-  width: 36px;
+  // width: 36px;
   text-align: center;
   font-weight: lighter;
   .page-link {

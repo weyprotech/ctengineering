@@ -18,6 +18,10 @@ html {
   font-size: 20px;
 }
 
+.font-18 {
+  font-size: 18px;
+}
+
 .font-16 {
   font-size: 16px;
 }
@@ -48,18 +52,18 @@ html {
 }
 
 .btn-outline-secondary-1 {
-  border: 1px solid #666666;
-  border-radius: 0;
+  border: 1px solid #666666 !important;
+  border-radius: 0 !important;
 }
 
 .btn-outline-light {
-  border-color: #cccccc;
+  border: 1px solid #666666 !important;
   color: #666666;
   font-weight: lighter;
 }
 
 .btn-outline-light:hover {
-  border-color: #cccccc;
+  border: 1px solid #666666 !important;
   color: #666666;
   background: transparent;
 }
@@ -142,12 +146,12 @@ html {
 }
 
 .page-item {
-  margin: 0 5px;
   text-align: center;
   font-weight: lighter;
 }
 
 .page-item .page-link {
+  margin: 0 5px;
   border-radius: 5px;
   border-color: #cccccc;
   color: #cccccc;
@@ -315,7 +319,7 @@ html {
     background: url(../images/pic-app-06.jpg) no-repeat bottom;
   }
   .my-sm-2 {
-    margin: 2rem 0;
+    margin: 1.2rem 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

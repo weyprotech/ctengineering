@@ -1,4 +1,4 @@
-@import "../scss/globle.scss";
+// @import "../scss/globle.scss";
 html {
   overflow-x: hidden;
 }
@@ -44,38 +44,38 @@ html {
 }
 //bg
 .bg-gray-1 {
-  background: $bg-gray;
+  background: #f9fafc;
 }
 .bg-lightgray {
   background: #f8f8f8;
 }
 //text
 .text-gray {
-  color: $text-gray;
+  color: #666666;
 }
 .text-shadows {
   text-shadow: 0.1em 0.1em 0.2em black;
 }
 .shadow {
-  box-shadow: $box-shadow !important;
+  box-shadow: 0 0.5rem 1rem rgba(black, 0.7) !important;
 }
 //btn
 .btn-outline-secondary {
-  border-color: $text-gray;
+  border-color: #666666;
   border-radius: 0;
 }
 .btn-outline-light {
   border-color: #cccccc;
-  color: $text-gray;
+  color: #666666;
   font-weight: lighter;
 }
 .btn-outline-light:hover {
   border-color: #cccccc;
-  color: $text-gray;
+  color: #666666;
   background: transparent;
 }
 .btn-primary01 {
-  background-color: $primary-color;
+  background-color: #61c1bd;
   border: 0;
   width: 80%;
   height: 50px;
@@ -83,7 +83,7 @@ html {
   color: #fff;
 }
 .btn-primary01:hover {
-  background-color: $primary-color;
+  background-color: #61c1bd;
   border: 0;
   color: #fff;
 }

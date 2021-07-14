@@ -60,8 +60,8 @@ html {
   box-shadow: 0 0.5rem 1rem rgba(black, 0.7) !important;
 }
 //btn
-.btn-outline-secondary {
-  border-color: #666666;
+.btn-outline-secondary-1 {
+  border: 1px solid #666666;
   border-radius: 0;
 }
 .btn-outline-light {
@@ -113,7 +113,7 @@ html {
   h5 {
     font-weight: 500;
     line-height: 1.2;
-    font-size: 1.25rem;
+    font-size: 2rem;
     color: #fff;
   }
 }
@@ -311,5 +311,8 @@ html {
   }
   .pic-item-06 {
     background: url(../images/pic-app-06.jpg) no-repeat bottom;
+  }
+  .my-sm-2 {
+    margin: 2rem 0;
   }
 }

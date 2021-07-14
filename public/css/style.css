@@ -92,6 +92,7 @@ html {
 .btn-secondary:hover, .btn-secondary:active {
   background-color: #16175f;
   border-color: #16175f;
+  color: #fff !important;
 }
 
 .w-px-20 {

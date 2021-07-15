@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap");
 html {
   overflow-x: hidden;
 }
 
 .font-40 {
   font-size: 40px;
+  color: #000000;
 }
 
 .font-32 {
@@ -127,6 +129,10 @@ html {
   left: 7%;
   text-align: left;
   bottom: 20%;
+}
+
+.carousel-item .carousel-caption h1 {
+  font-family: "Open Sans", sans-serif;
 }
 
 .new-item h5 {
@@ -324,7 +330,7 @@ html {
   }
 }
 
-nav .nav {
+nav ul .nav {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;

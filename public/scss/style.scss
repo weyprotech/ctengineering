@@ -1,4 +1,5 @@
 // @import "../scss/globle.scss";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap");
 html {
   overflow-x: hidden;
 }
@@ -26,6 +27,7 @@ html {
 //font-size
 .font-40 {
   font-size: 40px;
+  color: #000000;
 }
 .font-32 {
   font-size: 32px;
@@ -133,6 +135,10 @@ html {
     left: 7%;
     text-align: left;
     bottom: 20%;
+
+    h1 {
+      font-family: "Open Sans", sans-serif;
+    }
   }
 }
 //new
@@ -322,7 +328,9 @@ html {
 }
 
 nav {
-  .nav {
-    flex-direction: column;
+  ul {
+    .nav {
+      flex-direction: column;
+    }
   }
 }

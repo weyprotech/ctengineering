@@ -129,16 +129,13 @@ html {
     line-height: 60px;
     font-weight: lighter;
     color: #fff;
+    font-family: "Open Sans", sans-serif;
   }
   .carousel-caption {
     right: 0;
     left: 7%;
     text-align: left;
     bottom: 20%;
-
-    h1 {
-      font-family: "Open Sans", sans-serif;
-    }
   }
 }
 //new
@@ -328,9 +325,7 @@ html {
 }
 
 nav {
-  ul {
-    .nav {
-      flex-direction: column;
-    }
+  .nav {
+    flex-direction: column !important;
   }
 }
